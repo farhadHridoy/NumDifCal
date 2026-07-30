@@ -6,7 +6,7 @@ import { cn } from '@/lib/utils';
 
 interface MagneticButtonProps {
   children: ReactNode;
-  onClick?: () => void;
+  onClick?: (e: MouseEvent<HTMLButtonElement>) => void;
   className?: string;
   variant?: 'primary' | 'secondary' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
